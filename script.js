@@ -16,7 +16,7 @@ var RESTRICTION_PROMPTS = {
 
 var settings = JSON.parse(localStorage.getItem("yt_settings") || "null") || {
   restrictionLevel: "medium",
-  model: "llama-3.3-70b-versatile",
+  model: "openai/gpt-oss-20b",
   temperature: 0.7,
   maxTokens: 1024,
   welcomeMsg: "Hello! I'm YoursTalk AI. How can I help you today?"
